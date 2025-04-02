@@ -1,0 +1,308 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+/*......Header........*/
+body{
+    background-color: #263d7e;
+}
+#headback{
+    width: 100%;
+    height: 150px;
+    background-color:white;
+}
+#logo{
+    height: 55%;
+    width: 15%;
+    padding-top: 30px;
+}
+
+#websitedirectory{
+    border: none;
+    color: #263d7e;
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 30px;
+    left: 550px;
+    
+}
+#websitedirectory:hover{
+    color: #FFBF3F;
+}
+
+#fronbuttons{
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #263d7e;
+    position: absolute;
+    top: 35px;
+    left: 770px;
+}
+#giving,#directory{
+    text-decoration: none;
+}
+#giving:hover,#directory:hover{
+    color: #FFBF3F;
+}
+#infofor{
+    border: none;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 25px;
+    left: 949px;
+    padding: 20px;
+    background-color: #FFBF3F;
+    border-right: 5px solid black;
+}
+#well{
+    position: absolute;
+    top: 25px;
+    left:990px;
+    background-color: #FFBF3F;
+    padding: 9.5px;
+    text-decoration: none;
+}
+.search{
+    position: absolute;
+    top: 25px;
+    left: 1120px;
+    width: 150px;
+    border: none;
+    background-color: #FFBF3F;
+    padding: 10px;
+}
+.search::placeholder{
+    color: white;
+}
+#search{
+    position: absolute;
+    top: 37px;
+    left: 1260px;
+    color:white;
+    cursor: pointer;
+}
+#homes{
+    position: absolute;
+    left: 30%;
+    top: 110px;
+}
+#b1,#b2,#b3,#b4,#b5,#b6,#b7{
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+#b2:hover,#b3:hover,#b4:hover,#b5:hover,#b6:hover,#b7:hover{
+    color: #FFBF3F;
+    transform: scale(1.05);
+}
+#b1{
+    color: #FFBF3F;
+}
+/*......End of Header......*/
+
+/*.......Slide Show.......*/
+#slider{
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img{
+    float: left;
+    width: 20%;
+
+}
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left:-100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left:-300%;
+    }
+    95%{
+        left:-300%;
+    }
+    100%{
+        left: -400;
+    }
+}
+#whites{
+    width: 91.5%;
+    height: 850px;
+    background-color: white;
+    position: absolute;
+    top: 915px;
+    padding: 50px;
+}
+#text{
+    width: 40%;
+    line-height: 150%;
+    position: absolute;
+    top: 20%;
+}
+#shadow1,#shadow2{
+    height: 400px;
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+#shadow1{
+position: relative;
+left: 630px;
+top: 30px;
+}
+#shadow2{
+    position: relative;
+    top: 60px;
+    right: 20px;
+}
+#text2{
+    width: 40%;
+    position: absolute;
+    left: 55%;
+    bottom: 150px;
+}
+#explore{
+    text-decoration: none;
+}
+#explore:hover{
+    color: #FFBF3F;
+}
+#yellow{
+    height: 800px;
+    width: 100%;
+    background-color:#FFBF3F;
+    position: absolute;
+    top: 950px;
+    right:0.2px;
+}
+#container1{
+    width: 446px;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('Left.jpg');
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transition: 0.7s;
+}
+#container1:hover{
+    transform: scale(1.05);
+}
+#container2{
+    width: 450px;
+    height: 800px;
+    background-image: url(Center.jpg);
+    position: relative;
+    left: 448px;
+    bottom: 800px;
+    transition: 0.7s;    
+}
+#container2:hover{
+    transform: scale(1.05);
+}
+#container3{
+    width: 450px;
+    height: 800px;
+    background-image: url(Right.jpg);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: relative;
+    left: 900px;
+    bottom: 1600px;
+    transition: 0.7s;
+}
+#container3:hover{
+    transform: scale(1.05);
+}
+#acprog{
+    position: relative;
+    top: 450px;
+    left: 80px;
+    text-decoration: none;
+    color: #FFBF3F;
+    font-weight: 900;
+    font-size: 25px;
+}
+#bcprog{
+    position: relative;
+    top: 330px;
+    left: 500px;
+    text-decoration: none;
+    color: #FFBF3F;
+    font-weight: 900;
+    font-size: 25px;
+}
+#ccprog{
+    position: relative;
+    top: 210px;
+    left: 950px;
+    text-decoration: none;
+    color: #FFBF3F;
+    font-weight: 900;
+    font-size: 25px;
+}
+#blueslide{
+    height: 200px;
+    width: 99%;
+    background-color: rgb(164, 182, 232);
+    position: absolute;
+    top: 2670px;
+}
+#movingno{
+    position: absolute;
+    top: 3000px;
+}
+#no1{
+    height: 200px;
+    width: 1352px;
+    background-image: url("blue1.png");
+    position: absolute;
+    bottom: 214px;
+}
+#no2{
+    height: 200px;
+    width: 1352px;
+    background-image: url("blue2.png");
+    position: absolute;
+    top: -130px;
+}
+#no3{
+    height: 200px;
+    width: 1352px;
+    background-image: url("blue3.png");
+    position: absolute;
+    top: 70px;
+}
+#no4{
+    height: 200px;
+    width: 1352px;
+    background-image: url("blue/blue4.png");
+    position: absolute;
+    top: 250px;
+}
+
